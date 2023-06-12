@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  display: block;
+  text-align: center;
+  height: 100vh;
+  margin: 40px auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px grey;
+}
+
+#timer {
+  color: White;
+  text-align: center;
+  text-shadow: 2px 2px grey;
+  font-size: 130px;
+  margin-top: 55px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 100px 0;
+
+
+
+
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 1px solid gold;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+
+}
+
+button:hover {
+  background-color: gold;
+  color: black;
+}
+
+p {
+  text-align: center;
+  color: white;
+  position: relative;
+background-color: black;
+}
